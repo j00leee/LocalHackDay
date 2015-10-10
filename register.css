@@ -4,6 +4,7 @@ html {
 }
 h1 {
 	text-align: center;
+	margin: 15px 0;
 }
 #register {
     margin-left: auto;
@@ -21,4 +22,10 @@ h1 {
     font-size: 25px;
     text-decoration: none;
     text-align: center;
+}
+#detail {
+	margin-bottom: 15px;
+}
+p1 {
+	font-style: oblique;
 }
