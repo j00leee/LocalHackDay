@@ -1,0 +1,21 @@
+html {
+	background-color: mediumseagreen;
+	font-family: 'Raleway';
+}
+h1 {
+	text-align: center;
+}
+#register {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: lightsalmon;
+    width: 325px;
+    padding: 25px;
+}
+.button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 10px;
+}
