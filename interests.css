@@ -1,3 +1,6 @@
+html {
+	font-family: 'Nunito';
+}
 .form-control{
   border-radius: 1000px;
 }
@@ -8,4 +11,10 @@ a:hover{
   color: inherit;
   cursor: pointer;
   text-decoration: none;
+}
+h1 {
+	font-family: 'Nunito';
+}
+h4 {
+	font-family: 'Nunito';
 }
