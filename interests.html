@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
@@ -9,4 +10,63 @@
   <body>
 
   </body>
+=======
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="interests.css" media="screen" title="no title" charset="utf-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interests</title>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="app.js"></script>
+
+    </script>
+
+  </head>
+  <body>
+    <div class="container" ng-app="interestsApp">
+      <h1>CHECK OUT THESE INTERESTS!</h1>
+
+      <input type="text" class="form-control text-input" maxlength="5" placeholder="Text input" ng-model="search">
+      <table class="table table-hover" ng-controller="FirstController">
+        <thead>
+          <tr>
+            <th>Interest</th>
+            <th>Number of People</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody ng-repeat="interest in interests | filter:search">
+          <tr>
+            <td>
+              <a ng-href="{{interest.link}}">{{interest.name}}</a>
+            </td>
+            <td>
+              {{interest.numberOfPeople}}
+            </td>
+            <td>
+              {{interest.Description}}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </body>
+
+
+  <script type="text/javascript">
+  jQuery(document).ready(function($) {
+      $(".clickable").click(function() {
+          window.document.location = $(this).data("href");
+      });
+  });
+  </script>
+
+>>>>>>> ab5dd6ca5ecdddf4e4277dd1e88356edda06a2c3
 </html>
