@@ -9,3 +9,9 @@ a:hover{
   cursor: pointer;
   text-decoration: none;
 }
+
+#chatSpace{
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+}
