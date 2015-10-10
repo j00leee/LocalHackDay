@@ -12,7 +12,7 @@ angular.module("interestsApp",["firebase"])
       link:"https://docs.angularjs.org/api/ng/directive/ngHref"
     },
     {
-      name:"Video Games",
+        name:"Video Games",
       numberOfPeople:55,
       Description:"If your interesting in Video Games, these are the people for you.",
       link:""
@@ -29,13 +29,4 @@ angular.module("interestsApp",["firebase"])
       Description:"If your interesting in Fishing, these are the people for you.",
       link:""
     }];
-}).controller("ChatController",function($scope) {
-  var firechatRef = new Firebase('https://<YOUR-FIREBASE>.firebaseio.com');
-firechatRef.onAuth(function(authData) { ... });
-...
-firechatRef.authWithOAuthPopup('twitter' /* or 'facebook', 'github, 'persona', 'password' */, function(error, authData) {
-  if (error) {
-    console.log(error);
-  }
-});
 });
