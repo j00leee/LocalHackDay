@@ -1,0 +1,11 @@
+.form-control{
+  border-radius: 1000px;
+}
+a{
+  color: inherit;
+}
+a:hover{
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
