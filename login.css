@@ -1,3 +1,17 @@
 #Login{
 	
 }
+
+html {
+	background-color: mediumseagreen;
+}
+h1 {
+	font-family: 'Raleway';
+	text-align: center;
+	font-size: 80px;
+}
+p {
+	font-family: 'Raleway';
+	text-align: center;
+	font-size: 30px;
+}
