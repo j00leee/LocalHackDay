@@ -8,25 +8,25 @@ angular.module("interestsApp",[])
     },{
       name:"Basketball",
       numberOfPeople:23,
-      Description:"If your interesting in hooping, these are the people for you.",
+      Description:"If Ball is Life, these are the people for you.",
       link:"https://docs.angularjs.org/api/ng/directive/ngHref"
     },
     {
       name:"Video Games",
       numberOfPeople:55,
-      Description:"If your interesting in Video Games, these are the people for you.",
+      Description:"If your interesting in beating noobs, these are the people for you.",
       link:""
     },
     {
       name:"Fashion",
       numberOfPeople:23,
-      Description:"If your interesting in fashion, these are the people for you.",
+      Description:"If your rocking that Supreme, these are the people for you.",
       link:""
     },
     {
       name:"Fishing",
       numberOfPeople:23,
-      Description:"If your interesting in Fishing, these are the people for you.",
+      Description:"If you eat fish, these are the people for you.",
       link:""
     }];
 });
